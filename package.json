@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Serveur Web et Api avec DB mongoose sur les hamburgers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "author": "Toni Deplano",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.28.7",
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19",
+    "yup": "^0.32.11"
+  }
+}
